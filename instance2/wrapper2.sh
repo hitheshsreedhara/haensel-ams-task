@@ -31,7 +31,7 @@ check_data()
 exit_script()
 {
   # Method to pause the execution of step2.py indefinitely if it failed once and notifies administrator by sending email
-  echo "Script step2.py is failing. Please check" | mail -s "step2.py failure" usha26.sm@gmail.com
+  echo "Script step2.py is failing. Please check" | mail -s "step2.py failure" etl-admin@example.com
   exit 1
 }
 
