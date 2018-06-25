@@ -17,6 +17,21 @@ https://github.com/haensel-ams/recruitment_challenge/tree/master/DevOps_201709
     ├── step2.py
     └── wrapper2.sh
 ```
+
+### Setup:
+1. Git clone the repo in both instances
+```
+git clone https://github.com/hitheshsreedhara/haensel-ams-task.git
+```
+2. Start wrapper1.sh in instance1
+```
+./haensel-ams-task/instance1/wrapper1.sh
+```
+3. Start wrapper2.sh in instance2
+```
+./haensel-ams-task/instance2/wrapper2.sh
+```
+
 ### Task 1 :
 1. The script ```wrapper1.sh``` runs the script ```step1.sh``` in every 2 hours insterval.
 2. It NEVER starts ```step1.sh``` script again if the previous run is still running.
