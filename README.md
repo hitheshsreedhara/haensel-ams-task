@@ -23,7 +23,7 @@ https://github.com/haensel-ams/recruitment_challenge/tree/master/DevOps_201709
 3. It re-runs the ```step1.sh``` script immediately if it failed (exit code >0).
 4. The script ```step1.sh``` writes data into S3 storage before it exits into a bucket by name ```haensel``` and provides read access to the stored data.
 
-### Task 1 :
+### Task 2 :
 1. The script ```wrapper2.sh``` runs the script ```step2.py``` soon after script step1.sh has finished and the new data are available.
 2. It NEVER starts ```step2.py``` script again if the previous run is still running.
 3. It pauses the execution of ```step2.py``` indefinitely if it failed once and notifies administrator by sending email to "etl-admin@example.com".
