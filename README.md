@@ -28,4 +28,4 @@ https://github.com/haensel-ams/recruitment_challenge/tree/master/DevOps_201709
 2. It NEVER starts ```step2.py``` script again if the previous run is still running.
 3. It pauses the execution of ```step2.py``` indefinitely if it failed once and notifies administrator by sending email to "etl-admin@example.com".
 
-#### PS - I created a S3 storage bucket called ```haensel``` and step1.sh script writes data to the S3 storage before exiting upon successful execution.
+#### PS - I created a S3 storage bucket called ```haensel``` and ```step1.sh``` script writes data to the S3 storage before exiting upon successful execution.
