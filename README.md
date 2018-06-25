@@ -19,7 +19,7 @@ https://github.com/haensel-ams/recruitment_challenge/tree/master/DevOps_201709
 ```
 
 ### Setup:
-1. Git clone the repo in both instances
+1. Git clone the repo in two EC2 instances.
 ```
 git clone https://github.com/hitheshsreedhara/haensel-ams-task.git
 ```
